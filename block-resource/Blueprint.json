@@ -1,0 +1,41 @@
+{
+  "properties": {
+    "description": "Tests to block a previously created resource group",
+    "targetScope": "subscription",
+    "locks": {
+      "mode": "AllResourcesReadOnly"
+    },
+    "parameters": {
+      "storage_storageAccountType": {
+        "type": "string",
+        "metadata": {
+          "displayName": "storageAccountType (Storage)",
+          "description": "Storage Account type"
+        },
+        "defaultValue": "Standard_LRS",
+        "allowedValues": [
+          "Standard_LRS",
+          "Standard_GRS",
+          "Standard_ZRS",
+          "Premium_LRS"
+        ]
+      },
+      "[Usergrouporapplicationname]:CAPBilling_RoleAssignmentName": {
+        "type": "array",
+        "metadata": {
+          "displayName": "CAP Billing",
+          "strongType": "PrincipalId"
+        }
+      },
+    },
+    "resourceGroups": {
+      "ResourceGroup": {
+        "name": "RG-test",
+        "description": "This is a test resource group that changes again",
+        "tags": {   
+          "environment": "PROD"
+        }
+      }
+    }
+  }
+}

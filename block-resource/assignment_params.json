@@ -1,0 +1,30 @@
+{
+    "identity": {
+        "type": "SystemAssigned"
+    },
+    "location": "eastus2",
+    "properties": {
+	    "blueprintId": "/subscriptions/ef4137d0-6b6f-4df2-9d6e-82050665d5b9/providers/Microsoft.Blueprint/blueprints/block-resource2",
+	    "locks": {
+        "mode": "AllResourcesReadOnly"
+        },
+	    "parameters": {
+            "storage_storageAccountType": {
+                "value": "Standard_GRS"
+            },
+            "[Usergrouporapplicationname]:CAPBilling_RoleAssignmentName": {
+                "value": [
+                    #{principal_ids_billing}#
+                ]
+              }
+        },
+	    "resourceGroups": {
+            "ResourceGroup": {
+                "location": "eastus2",
+                "tags": {   
+                    "environment": "DEV"
+                  }
+            }
+        }
+	}
+}

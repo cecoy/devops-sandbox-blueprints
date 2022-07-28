@@ -1,0 +1,353 @@
+{
+    "source": 2,
+    "revision": 17,
+    "description": null,
+    "createdBy": {
+        "displayName": "CARLOS COY",
+        "url": "https://spsprodcus1.vssps.visualstudio.com/Ab880f249-976c-4870-8064-995766fd06ce/_apis/Identities/44423cea-a062-6d2a-a657-b71c6e28e93e",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/cecdl/_apis/GraphProfile/MemberAvatars/msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl"
+            }
+        },
+        "id": "44423cea-a062-6d2a-a657-b71c6e28e93e",
+        "uniqueName": "cecdl@outlook.com",
+        "imageUrl": "https://dev.azure.com/cecdl/_apis/GraphProfile/MemberAvatars/msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl",
+        "descriptor": "msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl"
+    },
+    "createdOn": "2020-05-05T18:57:36.763Z",
+    "modifiedBy": {
+        "displayName": "CARLOS COY",
+        "url": "https://spsprodcus1.vssps.visualstudio.com/Ab880f249-976c-4870-8064-995766fd06ce/_apis/Identities/44423cea-a062-6d2a-a657-b71c6e28e93e",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/cecdl/_apis/GraphProfile/MemberAvatars/msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl"
+            }
+        },
+        "id": "44423cea-a062-6d2a-a657-b71c6e28e93e",
+        "uniqueName": "cecdl@outlook.com",
+        "imageUrl": "https://dev.azure.com/cecdl/_apis/GraphProfile/MemberAvatars/msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl",
+        "descriptor": "msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl"
+    },
+    "modifiedOn": "2020-05-07T16:49:44.790Z",
+    "isDeleted": false,
+    "lastRelease": {
+        "id": 33,
+        "name": "Release-22",
+        "artifacts": [],
+        "_links": {},
+        "description": "Triggered by Repository: Microsoft.VisualStudio.Services.ReleaseManagement.Server.Plugins.Model.GitRepository, Branch: refs/heads/master, Commit Id: 13.",
+        "releaseDefinition": {
+            "id": 3,
+            "projectReference": null,
+            "_links": {}
+        },
+        "createdOn": "2020-05-07T18:27:59.057Z",
+        "createdBy": {
+            "displayName": "CARLOS COY",
+            "url": "https://spsprodcus1.vssps.visualstudio.com/Ab880f249-976c-4870-8064-995766fd06ce/_apis/Identities/44423cea-a062-6d2a-a657-b71c6e28e93e",
+            "_links": {
+                "avatar": {
+                    "href": "https://dev.azure.com/cecdl/_apis/GraphProfile/MemberAvatars/msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl"
+                }
+            },
+            "id": "44423cea-a062-6d2a-a657-b71c6e28e93e",
+            "uniqueName": "cecdl@outlook.com",
+            "imageUrl": "https://dev.azure.com/cecdl/_apis/GraphProfile/MemberAvatars/msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl",
+            "descriptor": "msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl"
+        }
+    },
+    "variables": {
+        "BpAssignmentName": {
+            "value": "assignMyCDBlueprint"
+        },
+        "BpName": {
+            "value": "block-resource2"
+        }
+    },
+    "variableGroups": [],
+    "environments": [
+        {
+            "id": 3,
+            "name": "DEV",
+            "rank": 1,
+            "owner": {
+                "displayName": "CARLOS COY",
+                "url": "https://spsprodcus1.vssps.visualstudio.com/Ab880f249-976c-4870-8064-995766fd06ce/_apis/Identities/44423cea-a062-6d2a-a657-b71c6e28e93e",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/cecdl/_apis/GraphProfile/MemberAvatars/msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl"
+                    }
+                },
+                "id": "44423cea-a062-6d2a-a657-b71c6e28e93e",
+                "uniqueName": "cecdl@outlook.com",
+                "imageUrl": "https://dev.azure.com/cecdl/_apis/GraphProfile/MemberAvatars/msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl",
+                "descriptor": "msa.NDQ0MjNjZWEtYTA2Mi03ZDJhLWE2NTctYjcxYzZlMjhlOTNl"
+            },
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 7
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 1
+                }
+            },
+            "deployStep": {
+                "id": 8
+            },
+            "postDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 9
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 2
+                }
+            },
+            "deployPhases": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": 0
+                        },
+                        "agentSpecification": {
+                            "identifier": "ubuntu-18.04"
+                        },
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": []
+                        },
+                        "queueId": 9,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": 1,
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "environment": {},
+                            "taskId": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+                            "version": "2.*",
+                            "name": "Blueprint creation",
+                            "refName": "",
+                            "enabled": false,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "# Write your PowerShell commands here.\n\n# Get a reference to the new blueprint object, we'll use it in subsequent steps\n$blueprint = New-AzBlueprint -Name 'block-resource2' -BlueprintFile block-resource\\Blueprint.json\n\n# Add ARM Template artifact\nNew-AzBlueprintArtifact -Blueprint $blueprint -Name 'Storage' -ArtifactFile block-resource/Artifacts/62805c29-367e-4117-bf51-3dd8d5c9fa15.json",
+                                "errorActionPreference": "stop",
+                                "failOnStderr": "false",
+                                "ignoreLASTEXITCODE": "false",
+                                "pwsh": "false",
+                                "workingDirectory": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "72a1931b-effb-4d2e-8fd8-f8472a07cb62",
+                            "version": "4.*",
+                            "name": "Azure PowerShell script: InlineScript",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "ConnectedServiceNameARM": "fc58f222-5b6f-442d-ba56-fbb2df11c3ff",
+                                "ScriptType": "InlineScript",
+                                "ScriptPath": "",
+                                "Inline": "Install-Module -Name Az.DevOps.Blueprint -MinimumVersion 1.0.3 -Force -Scope CurrentUser -Verbose\n\nImport-Module -Name Az.DevOps.Blueprint -MinimumVersion 1.0.3 -Force -Scope Local -Verbose\n\n# Get a reference to the new blueprint object, we'll use it in subsequent steps\n\n$latestBp = Get-AzBlueprint -Name $(BpName) -LatestPublished -ErrorAction SilentlyContinue\n\nif($latestBp) {\n  $blueprint = Set-AzBlueprint -Name '$(BpName)' -BlueprintFile block-resource\\Blueprint.json\n# Add ARM Template artifact\nSet-AzBlueprintArtifact -Blueprint $blueprint -Name 'Storage' -ArtifactFile block-resource/Artifacts/62805c29-367e-4117-bf51-3dd8d5c9fa15.json\n} else {\n$blueprint = New-AzBlueprint -Name '$(BpName)' -BlueprintFile block-resource\\Blueprint.json \n# Add ARM Template artifact\nNew-AzBlueprintArtifact -Blueprint $blueprint -Name 'Storage' -ArtifactFile block-resource/Artifacts/62805c29-367e-4117-bf51-3dd8d5c9fa15.json\n}\n\n#Publish Blueprint new version\nPublish-AzBlueprint -Blueprint $blueprint -Version 'Build-$(Build.BuildNumber)'\n\n$existingAssignedBp = Get-AzBlueprintAssignment -Name \"$(BpAssignmentName)\" -ErrorAction SilentlyContinue\n\nif($existingAssignedBp) {\n  # Update existing Assignment\n   Set-AzBlueprintAssignment -Blueprint $blueprint -Name $(BpAssignmentName) -AssignmentFile block-resource/assignment_params.json\n}\nelse {\n#Assign Blueprint\nWrite-Host \"No existing blueprint assignment. Creating one...\"\nNew-AzBlueprintAssignment -Blueprint $blueprint -Name $(BpAssignmentName) -AssignmentFile block-resource/assignment_params.json\n}",
+                                "ScriptArguments": "",
+                                "errorActionPreference": "stop",
+                                "FailOnStandardError": "false",
+                                "TargetAzurePs": "LatestVersion",
+                                "CustomTargetAzurePs": "",
+                                "pwsh": "true",
+                                "workingDirectory": "$(System.DefaultWorkingDirectory)/_DevOps-Sandbox"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "name": "ReleaseStarted",
+                    "conditionType": 1,
+                    "value": ""
+                }
+            ],
+            "executionPolicy": {
+                "concurrencyCount": 1,
+                "queueDepthCount": 0
+            },
+            "schedules": [],
+            "currentRelease": {
+                "id": 33,
+                "url": "https://vsrm.dev.azure.com/cecdl/7ee5a516-73c6-46e1-b340-ca9c83c67b32/_apis/Release/releases/33",
+                "_links": {}
+            },
+            "retentionPolicy": {
+                "daysToKeep": 30,
+                "releasesToKeep": 3,
+                "retainBuild": true
+            },
+            "processParameters": {},
+            "properties": {
+                "BoardsEnvironmentType": {
+                    "$type": "System.String",
+                    "$value": "unmapped"
+                },
+                "LinkBoardsWorkItems": {
+                    "$type": "System.String",
+                    "$value": "False"
+                }
+            },
+            "preDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "environmentTriggers": [],
+            "badgeUrl": "https://vsrm.dev.azure.com/cecdl/_apis/public/Release/badge/7ee5a516-73c6-46e1-b340-ca9c83c67b32/3/3"
+        }
+    ],
+    "artifacts": [
+        {
+            "sourceId": "7ee5a516-73c6-46e1-b340-ca9c83c67b32:b89ebb98-30be-491e-890c-a904dfb92946",
+            "type": "Git",
+            "alias": "_DevOps-Sandbox",
+            "definitionReference": {
+                "branches": {
+                    "id": "master",
+                    "name": "master"
+                },
+                "checkoutNestedSubmodules": {
+                    "id": "True",
+                    "name": "Any nested submodules within"
+                },
+                "checkoutSubmodules": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionSpecific": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionType": {
+                    "id": "latestFromBranchType",
+                    "name": "Latest from the default branch"
+                },
+                "definition": {
+                    "id": "b89ebb98-30be-491e-890c-a904dfb92946",
+                    "name": "DevOps-Sandbox"
+                },
+                "fetchDepth": {
+                    "id": "",
+                    "name": ""
+                },
+                "gitLfsSupport": {
+                    "id": "",
+                    "name": ""
+                },
+                "project": {
+                    "id": "7ee5a516-73c6-46e1-b340-ca9c83c67b32",
+                    "name": "DevOps-Sandbox"
+                }
+            },
+            "isPrimary": true,
+            "isRetained": false
+        }
+    ],
+    "triggers": [
+        {
+            "branchFilters": [
+                "master"
+            ],
+            "alias": "_DevOps-Sandbox",
+            "triggerType": 3
+        }
+    ],
+    "releaseNameFormat": "Release-$(rev:r)",
+    "tags": [],
+    "properties": {
+        "DefinitionCreationSource": {
+            "$type": "System.String",
+            "$value": "ReleaseNew"
+        },
+        "IntegrateBoardsWorkItems": {
+            "$type": "System.String",
+            "$value": "False"
+        },
+        "IntegrateJiraWorkItems": {
+            "$type": "System.String",
+            "$value": "false"
+        }
+    },
+    "id": 3,
+    "name": "BlueprintPocRelease",
+    "path": "\\",
+    "projectReference": null,
+    "url": "https://vsrm.dev.azure.com/cecdl/7ee5a516-73c6-46e1-b340-ca9c83c67b32/_apis/Release/definitions/3",
+    "_links": {
+        "self": {
+            "href": "https://vsrm.dev.azure.com/cecdl/7ee5a516-73c6-46e1-b340-ca9c83c67b32/_apis/Release/definitions/3"
+        },
+        "web": {
+            "href": "https://dev.azure.com/cecdl/7ee5a516-73c6-46e1-b340-ca9c83c67b32/_release?definitionId=3"
+        }
+    }
+}
